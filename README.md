@@ -10,7 +10,7 @@ Download and extract into the __local/rbws__ directory of your Totara instance, 
 
 - Call the web service from the relevant external application, passing the __id__ parameter. For example:
 
-  curl "https://your.totara.url/totara_pivottable/webservice/rest/server.php?wstoken=abcdefghij123456ABC98765&wsfunction=local_rbws_get_report_by_id&moodlewsrestformat=json&id=999"
+  curl "https://your.totara.url/webservice/rest/server.php?wstoken=abcdefghij123456ABC98765&wsfunction=local_rbws_get_report_by_id&moodlewsrestformat=json&id=999"
 
 The function returns the following information: 
 
